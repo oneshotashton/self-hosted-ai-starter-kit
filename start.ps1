@@ -49,7 +49,7 @@ Write-Host "==> Starting Open WebUI on port 3000..." -ForegroundColor Yellow
 $env:OLLAMA_BASE_URL = "http://127.0.0.1:11434"
 $env:WEBUI_AUTH = "false"
 $env:WEBUI_NAME = "Local AI Chat"
-Start-Process -FilePath "open-webui" -ArgumentList "serve --port 3000" -WindowStyle Hidden
+Start-Process -FilePath "open-webui" -ArgumentList "serve", "--port", "3000" -WindowStyle Hidden
 Start-Sleep -Seconds 5
 
 # ── 8. Get IPs ────────────────────────────────────────────────────────────────
