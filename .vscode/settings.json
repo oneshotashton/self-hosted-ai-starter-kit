@@ -1,3 +1,4 @@
 {
-    "github.copilot.chat.agentDebugLog.enabled": true
+    "github.copilot.chat.agentDebugLog.enabled": true,
+    "gitlens.ai.generateCommits.customInstructions": "gitlens.ai.generateCommits.customInstructions"
 }
